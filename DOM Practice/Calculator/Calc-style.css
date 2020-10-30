@@ -1,0 +1,30 @@
+.bodyPosition{
+    margin-top: 10%;
+    
+    display: flex;
+    align-content: center;
+    justify-self: start;
+    justify-content: center;
+   
+}
+body{
+    color: honeydew;
+}
+.calcKeys{
+  display: grid;
+  /* display: inline;*/
+}
+.card{
+    background-color: black;
+    color: honeydew;
+}
+
+#CardSize{
+    width: 300px;
+}
+#calcButtons{
+    color: honeydew;
+    width: 50px;
+    height: 50px;
+    font-weight: bolder;
+}
