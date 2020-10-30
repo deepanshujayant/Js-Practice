@@ -1,11 +1,7 @@
-var x;
-function init(){
-    x = document.querySelector('.inputField').textContent = '0';
-};
-init();
-console.log(x);
+
+
 console.log('jS Running')
 
-document.querySelector('.btn').addEventListener('click', function(){
-    document.querySelector('.inputField').textContent = '3';
+document.querySelector('#calcButtons').addEventListener('click', function(){
+    document.querySelector('.calcDisplay').textContent = '3';
 })
